@@ -1,19 +1,24 @@
 # Face Object Detection Project
 
-## Description
-This project detects and recognizes me in images using Ultralytics YOLO.
+Personal object detection project using **Ultralytics YOLO**.  
+The goal is to train a model that can detect and recognize **me** in images.
 
-## Goal
-Train a model that can find and identify me in new photos.
+## Project Goal
+Train a custom YOLO model on a dataset of my own images (≥ 500 annotated photos) so the model can locate and identify me in new pictures under different conditions.
 
-## Tools
-Python, Ultralytics YOLO, Ollama (Llama 3.2 1B), Google Drive
+## Tools & Technologies
+- Python
+- Ultralytics YOLO
+- Jupyter Notebooks
+- scikit-learn (Linear & Logistic Regression practice)
+- Ollama + Llama 3.2 1B
+- Google Drive (dataset storage)
+- Annotation tools (Roboflow / LabelImg / CVAT)
 
 ## Dataset
-Photos of myself in different angles, lighting, and backgrounds.
+- Minimum 500 images of myself
+- Different angles, lighting, backgrounds, distances, and poses
+- Annotated in YOLO format
+- Stored on Google Drive (private)
 
-## Steps
-1. Collect images
-2. Annotate images
-3. Train the model
-4. Evaluate the results
+## Repository Structure
